@@ -114,6 +114,21 @@
                 "configuration": "./gotemplate.configuration.json"
             },
             {
+                "id": "goxml",
+                "aliases": [
+                    "Golang XML Template",
+                    "goxml"
+                ],
+                "extensions": [
+                    ".xml",
+                    ".goxml",
+                    ".xml.tmpl",
+                    ".xml.tpl",
+                    ".xml.gotmpl"
+                ],
+                "configuration": "./gotemplate.configuration.json"
+            },
+            {
                 "id": "goyaml",
                 "aliases": [
                     "Golang YAML Template",
@@ -191,6 +206,11 @@
                 "language": "gohtml",
                 "scopeName": "source.gohtml",
                 "path": "./syntaxes/gohtml.tmLanguage"
+            },
+            {
+                "language": "goxml",
+                "scopeName": "source.goxml",
+                "path": "./syntaxes/goxml.tmLanguage"
             },
             {
                 "language": "goyaml",
